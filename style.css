@@ -334,3 +334,15 @@ footer {
         transform: translateX(0);
     }
 }
+
+
+.gallery{
+  display: flex;
+  gap:0;
+  flex-wrap: wrap;
+}
+
+.gallery img{
+  max-width: 300px;
+  width: auto;
+}
