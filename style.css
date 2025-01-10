@@ -25,6 +25,35 @@ main {
   text-align: center;
 }
 
+h2 {
+  animation: color 10s linear infinite;
+  background-color: black;
+  padding:1rem;
+  width: fit-content;
+  font-family: 'Spicy Rice';
+  border-radius: 0.5rem;
+}
+
+p{
+  position: relative;
+  padding-left: 1rem;
+}
+
+.presentation p::before{
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: fuchsia;
+  position: absolute;
+  top:0.2rem;
+  left:0;
+  border-radius: 50%;
+}
+
+.presentation{
+  text-align: left;
+}
+
 .menu {
     display: none;
     animation: menu 1s ease-in;
